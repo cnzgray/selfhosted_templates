@@ -19,7 +19,7 @@
         ],
         "volumes": [
             {
-                "container": "/var/lib/postgresql/data/pgdata",
+                "container": "/var/lib/postgresql/data",
                 "bind": "!config/Postgres"
             }
         ],
